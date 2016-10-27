@@ -1,4 +1,4 @@
-###Load the extension
+###Load the extension ( Placement CDC )
 ####Extensions that you download from this repository, Chrome gives you a quick way of loading up your working directory for testing. Let's do that now.
 
 ####Visit chrome://extensions in your browser 

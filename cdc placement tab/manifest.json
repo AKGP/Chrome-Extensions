@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "See only Placement Notice",
+  "description": "This is for final yr IIT Kgp placement students",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons":{
+    "64":"icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://10.3.100.27/notice/","http://www.cdc.iitkgp.ernet.in/"],
+      "js": ["remove-intern.js"]
+    }
+  ]
+}
